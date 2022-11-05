@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Roboto:wght@300;400;500;700;900&display=swap');
+/* 
+.navbar {
+  padding: 20px;
+  background: rgb(233, 224, 222);
+}
+
+.mycard {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+} */
+
+*,*::after,
+*::before{
+  box-sizing:border-box;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+body{
+  padding:0;
+   margin:0;
+}
+body,
+#root,
+.App{
+  background: #DAD7CD;
+  color: #0F2C02;
+/*   background: #79cdb4; */
+  font-family: 'Roboto', sans-serif;
+/*   check this later */
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  font-weight: 500;
+  line-height: 1.5em;
+/*   margin: auto; */
+/*   padding: 1.25rem; */
+}
+li{
+  list-style:none;
+}
+a{
+  text-decoration:none;
+}
+a.active{
+  color:red;
+}
+img{
+  max-width: 100%;
+}
+
+.loading{
+  min-height: 50vh;
+  text-align: center;
+}
+
+
+/* @media(min-width:640px){
+  .followers-card{
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 3em;
+  }
+  .repo-container{
+    width: 30%;
+  }
+} */
+
+/*profile icon  */
+

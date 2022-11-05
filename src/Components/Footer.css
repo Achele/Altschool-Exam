@@ -1,0 +1,15 @@
+.attribution{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2em 0;
+  padding: 2em;
+}
+a{
+  color: #3A5A40;
+  cursor: pointer;
+}
+a:hover,
+a:focus {
+  text-decoration: underline;
+}

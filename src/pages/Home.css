@@ -1,0 +1,129 @@
+.profile-avatar{
+  max-width: 200px;
+  border-radius: 50%
+}
+
+.profile-card{
+/*   display: flex;
+  flex-direction: column; */
+  width: 100%;
+  margin: 2em 0;
+  padding: 0 2em;
+/*   use this for bigger screen */
+/*   width: 40%;
+  padding: 2.5em 4em;
+  float: left; */
+/*   color: #86dfd5; */
+}
+/* .profile-card >h2{
+  color: white;
+  font-weight: 700;
+} */
+.profile-card h2, p, h4{
+  padding-top: .5em;
+  color: black;
+}
+.profile-info{
+  display: flex;
+  align-items: center;
+  gap: .5em;
+  margin-bottom: 1em;
+}
+/* .home-wrapper{
+  max-width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; */
+/*   justify-conter: space-around;
+  
+} */
+.followers-wrapper{
+/*   width: 60%;
+  float: right; */
+  margin: 0 auto;
+  padding: 1em;
+}
+.followers-card{
+/*   display: grid; */
+/*   grid-template: auto / auto auto ; */
+/*   grid: 150px / auto auto auto; */
+/*   gap: 5; */
+  
+/*   padding: 1em ; */
+  
+/*   grid-column: 3 */
+}
+.followers-info{
+  width: 75%;
+  border: 1px solid #0F2C02;
+  padding: 1.5em;
+/*   background: #A3B18A; */
+/*   background: #484747; */
+  color: black;
+  text-align: center;
+/*   font-family: 'Lexend Deca', sans-serif; */
+}
+.followers-avatar{
+  max-width:150px;
+  border-radius: 50%;
+  border: 6px solid #588157;
+}
+
+.followers-btn{
+  background: #588157;
+/*   border: 1px; */
+  border-radius: .3em;
+  padding: .4em 1em;
+/*   margin-bottom: 1em; */
+  color: white;
+  font-weight: 600;
+}
+
+.followers-info > h1{
+  padding: .5em;
+  overflow: scroll;
+  font-weight: 900;
+}
+
+/*media queries  */
+@media(min-width:640px){
+  .profile-card{
+    width: 40%;
+/*     padding: 2.5em 4em; */
+    float: left;
+  }
+  .followers-wrapper{
+    width: 60%;
+    float: right;
+  }
+  .followers-card{
+display: grid;
+grid-template-columns:  1fr;
+gap: 3em;
+  }
+  .repo-container{
+    width: 30%;
+  }
+  .attribution{
+/*     width: 20%; */
+    float: none;
+  }
+}
+
+@media(min-width:800px){
+  .followers-card{
+display: grid;
+grid-template-columns: 1fr  1fr;
+gap: 3em;
+   padding: 0 .5em;
+  }
+  .followers-wrapper >h1{
+    margin: 2em 0;
+   font-weight: 700;
+  }
+  .followers-info{
+    width: 200px;
+  }
+  
+}

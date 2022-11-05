@@ -1,0 +1,112 @@
+.repoList-card{
+  padding: 1em;
+}
+.repo-info{
+  display: flex;
+  align-items: center;
+/*   margin: .5em; */
+/*   justify-content: center; */
+/*   justify-content: space-between; */
+}
+.flex{
+  display: flex;
+  align-items: center;
+}
+.flex > h4{
+  margin-left: .5em;
+  border: 1px solid #3A5A40;
+  border-radius: 1em;
+  padding: 0 .3em;
+  font-weight: 300;
+}
+.flex-h3{
+/*   font-size: 2em; */
+  font-weight: 900;
+  color: #3A5A40;
+}
+.repo-info>p{
+  margin-left: .5em;
+  color: black;
+}
+.repo-container{
+/*   background: white; */
+/*   color:#79cdb4; */
+  border: 1px solid #3A5A40;
+  border-radius: .5em;
+  width: 45%;
+  margin: 1em;
+  padding: 1em;
+/*   margin-top: 10; */
+}
+.repo-img{
+  width: 100px;
+  border-radius: 50%;
+}
+
+.repo-card > p{
+  color: #3A5A40;
+  font-weight: 900;
+  font-size: 2em;
+}
+
+.repo-top{
+  display: flex;
+  margin-left: .5em;
+}
+.repo-top > div{
+  margin-left: 1em;
+}
+.repo-links,
+.repo-bottom{
+  display: flex;
+  align-item:center;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+.repo-bottom > h4,
+.repoT > h4{
+  background: #588157;
+  color: white;
+  border-radius: .7em;
+  padding: .5em 1em;
+}
+.repo-t > h4{
+  border:1px solid;
+}
+.star{
+  justify-content: space-between;
+}
+.icon{
+  margin: .5em;
+}
+button{
+  border-radius: .5em;
+  margin: .5em;
+  background-color: transparent;
+  cursor: pointer;
+  color: #3A5A40;
+  padding: .5em 1.5em;
+}
+button:hover{
+  background:#3A5A40;
+  color: white;
+}
+/* button:active{
+  color: #3A5A40;
+  border: 1px solid #3A5A40;
+} */
+button:focus, button:active{
+  background:#3A5A40;
+  color: white;
+  border: 1px solid white;
+}
+.btn-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2em 0;
+  padding: 0 1em;
+}
+p{
+  margin: .5em 1em;
+}
