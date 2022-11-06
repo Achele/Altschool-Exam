@@ -1,5 +1,4 @@
 import './App.css'
-// import { Card, Image, Icon } from 'semantic-ui-react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from "./pages/Home.jsx";
 import Repositories from "./pages/Repositories.jsx";
@@ -8,7 +7,7 @@ import Repo from "./pages/Repo.jsx";
 import { ErrorBoundary } from 'react-error-boundary';
 import ErrorBound from "./Components/ErrorBound.jsx";
 import ErrorPageTest from "./pages/ErrorPageTest.jsx";
-// import NavBar from './Components/NavBar.jsx';
+
 
 export default function App() {
 
