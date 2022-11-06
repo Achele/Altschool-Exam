@@ -6,6 +6,8 @@
 .profile-card{
 /*   display: flex;
   flex-direction: column; */
+/*   justify-content: center;
+  text-align: center; */
   width: 100%;
   margin: 2em 0;
   padding: 0 2em;
@@ -114,7 +116,7 @@ gap: 3em;
 @media(min-width:800px){
   .followers-card{
 display: grid;
-grid-template-columns: 1fr  1fr;
+grid-template-columns: 1fr  1fr 1fr;
 gap: 3em;
    padding: 0 .5em;
   }

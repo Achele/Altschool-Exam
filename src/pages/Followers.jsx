@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useErrorHandler } from "react-error-boundary"
 import useFetch from "../hooks/useFetch.js"
+import { GoMarkGithub, GoOrganization } from "react-icons/go"
 
 export default function followers(){
   const [timeline, setTimeline] = useState([])
@@ -11,7 +12,10 @@ export default function followers(){
   return (
     <>
       <section className="followers-wrapper" >
-    <h1>Followers</h1>
+        <div className="flex repos">
+          <GoOrganization className="repo-icon"/>
+          <h4>Followers</h4>
+        </div>
        <div className="followers-card">
        {data && data.map(info=> <li key={info.id} className="followers-info">
          <img className="followers-avatar" src={info.avatar_url}/>

@@ -7,6 +7,7 @@ import NavBar from "../Components/NavBar.jsx"
 import Footer from "../Components/Footer.jsx"
 import { format, formatDistance, subDays } from "date-fns"
 import "./Repositories.css"
+import { GoMarkGithub, GoStar, GoRepo, GoRepoForked, GoOrganization, GoLocation } from "react-icons/go"
 
 export default function Repositories() {
   const [repos, setRepos] = useState([]);
@@ -29,7 +30,10 @@ export default function Repositories() {
 
       <NavBar />
       <main>
-        <p>Repositories</p>
+        <div className="flex repos">
+          <GoRepo className="repo-icon"/>
+        <h4>Repositories</h4>
+          </div>
         {loading && <p className="loading">loading</p>}
         {data && data.map(details => <li key={details.id} className="repoList-card ">
           <section className="flex star">
@@ -51,13 +55,13 @@ export default function Repositories() {
 
             {details.stargazers_count > 0 && (
               <div className="flex">
-                <img src="src/assets/starred.png" className="icon"/>
+                <GoStar/>
                 <p>Starred</p>
               </div>
             )}
             {details.stargazers_count === 0 && (
               <div className="flex">
-                <img src="src/assets/star.png" className="icon"/>
+                <GoStar/>
                 <p>Star</p>
               </div>
             )}

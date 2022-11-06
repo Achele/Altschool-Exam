@@ -33,7 +33,7 @@
 /*   color:#79cdb4; */
   border: 1px solid #3A5A40;
   border-radius: .5em;
-  width: 45%;
+  width: 90%;
   margin: 1em;
   padding: 1em;
 /*   margin-top: 10; */
@@ -109,4 +109,19 @@ button:focus, button:active{
 }
 p{
   margin: .5em 1em;
+}
+
+.repo-icon{
+  color: black;
+  margin-left: 0;
+/*   padding: 1em; */
+  
+}
+.repos{
+/*   border: 1px solid red; */
+  width: 200px;
+  margin: 1em 0;
+  padding: 0 1.5em;
+  gap: 0;
+/*   align-items: center; */
 }

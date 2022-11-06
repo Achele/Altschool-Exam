@@ -24,7 +24,7 @@ return(
 
           <p className="repo-date">
             This repository was created on{" "}
-            {format(new Date(details.created_at), "dd MMMM yyyy")} by{" "} {details.owner.login}
+            {format(new Date(details.created_at), "dd MMMM yyyy")} by{" "} {details.owner.login}<br/>{details.description}
           </p>
   
 
